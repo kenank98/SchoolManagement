@@ -1,6 +1,6 @@
 # SchoolManagement
 
-Web Application and API for the management of a school database. (Group Project, work in progress)
+Web Application and API for the management of a school database. (Group Project)
 
 ## Fork Instructions
 
@@ -33,51 +33,6 @@ Type in `localhost:8000` in your browser to access the site<br>
 Quit the server with CONTROL-C (COMMAND-C on MacOS) in the terminal
 
 
-## Access the Admin Page
-
-**First thing you'll want to do once you get the program running is create a superuser for yourself**
-
-1. Stop the server and run the command: `python manage.py createsuperuser`
-
-2. Follow the instructions and enter your username, email and password (these are stored securely so feel free to use whatever password you want)
-
-3. Run the server again and navigate to `localhost:8000/admin` and login with your new credentials
-
-
-## Make Contributions
-
-**Before pushing your code make sure it's up to date with the original repo.**
-
-1. Add the original repo as a remote, call it "upstream"<br><br>
-`git remote add upstream https://github.com/JacobCuke/SchoolManagement.git`
-
-2. Fetch to update your remote-tracking branches<br><br>
-`git fetch upstream`
-
-3. Make sure that you're on your master branch<br><br>
-`git checkout master`
-
-4. Update your local repo with the original master<br><br>
-`git rebase upstream/master`<br><br>
-
-**Now you can commit and push as normal**
-
-5. Add your changes to the staging area<br><br>
-`git add .`
-
-6. Commit them to your local repo<br><br>
-`git commit -m "Meaningful commit message"`
-
-7. Push them to your remote repo<br><br>
-`git push origin master`<br><br>
-
-**Now all you need to do is go create a Pull Request**
-
-8. Go to you GitHub profile and navigate to the repo containing your version of the project
-
-9. Create a new pull request, and leave a short description of the modifications you made
-
-10. I will see the pull request and after confirming there are no conflicts I will merge your changes into the original repo
 
 
 
